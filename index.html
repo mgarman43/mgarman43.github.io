@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
+<title>Maria Garman</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -14,16 +14,19 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <h3 class="w3-padding-64 w3-center"><b>SOME<br>NAME</b></h3>
+  <h3 class="w3-padding-64 w3-center"><b>Maria<br>Garman</b></h3>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
+  <a href="#print" onclick="w3_close()" class="w3-bar-item w3-button">PRINTMAKING</a> 
+  <a href="#phot" onclick="w3_close()" class="w3-bar-item w3-button">PHOTOGRAPHY</a> 
+<!--  <a href="#engs" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a> -->
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">SOME NAME</span>
+  <span class="w3-left w3-padding">Maria Garman</span>
   <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
 </header>
 
@@ -39,36 +42,126 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <!-- Photo grid -->
   <div class="w3-row">
     <div class="w3-third">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      <img src="/w3images/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+      <img src="media/homepage/road.jpg" style="width:100%" onclick="onClick(this)" alt="New England fall foliage">
+      <img src="media/homepage/paint.jpg" style="width:100%" onclick="onClick(this)" alt="Day spent painting">
+      <img src="media/homepage/dog.jpg" style="width:100%" onclick="onClick(this)" alt="Dog asleep on the dock">
+
     </div>
 
     <div class="w3-third">
-      <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
-      <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
+      <img src="media/homepage/spit.jpg" style="width:100%" onclick="onClick(this)" alt="Beautiful sunset at the Spit">
+      <img src="media/homepage/truda.jpg" style="width:100%" onclick="onClick(this)" alt="My favorite place in the world">
     </div>
     
     <div class="w3-third">
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
-      <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-      <img src="/w3images/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful day!">
-    </div>
-  </div>
+      <img src="media/homepage/fall.jpg" style="width:100%" onclick="onClick(this)" alt="Running down through the foliage">
+      <img src="media/homepage/nail.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, a finger nail moon, and a mountaintop sunrise">
+      <img src="media/homepage/winter.jpg" style="width:100%" onclick="onClick(this)" alt="Frosty Narnia trees!">
 
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
     </div>
   </div>
   
+   <!-- Portfolio prints grid -->
+  <div class="w3-row" id="print">
+    <div class="w3-third">
+      <img src="media/art/mtsunset.jpg" style="width:100%" onclick="onClick(this)" alt="Rainbow Sky">
+      <img src="media/art/splatter.jpg" style="width:100%" onclick="onClick(this)" alt="Organized confusion">
+      <img src="media/art/lines2.jpg" style="width:100%" onclick="onClick(this)" alt="Organized lines">
+      <img src="media/art/tape.jpg" style="width:100%" onclick="onClick(this)" alt="Mixed up Rainbow">
+      <img src="media/art/etchMT.jpg" style="width:100%" onclick="onClick(this)" alt="Mountain sunset etching">
+      <img src="media/art/bluetape.jpg" style="width:100%" onclick="onClick(this)" alt="Lines fading into more lines">
+      <img src="media/art/truda.jpg" style="width:100%" onclick="onClick(this)" alt="Dock lake view">
+      <img src="media/art/star.jpg" style="width:100%" onclick="onClick(this)" alt="Sun Rays">
+
+
+      
+    </div>
+
+    <div class="w3-third">
+      <img src="media/art/lookout.jpg" style="width:100%" onclick="onClick(this)" alt="Firetower View">
+      <img src="media/art/moon.jpg" style="width:100%" onclick="onClick(this)" alt="Da Moon!">
+      <img src="media/art/litape.jpg" style="width:100%" onclick="onClick(this)" alt="Messy pastel lines">
+      <img src="media/art/splatter2.jpg" style="width:100%" onclick="onClick(this)" alt="Swirly splatters">
+      <img src="media/art/mirror.jpg" style="width:100%" onclick="onClick(this)" alt="Which is right side up?">
+      <img src="media/art/rainer.jpg" style="width:100%" onclick="onClick(this)" alt="Mt.Rainer View">
+     <img src="media/art/darkMT.jpg" style="width:100%" onclick="onClick(this)" alt="Dark Cascades">
+     <img src="media/art/truda trees.jpg" style="width:100%" onclick="onClick(this)" alt="Print and colored pencil of my favorite place">
+
+
+
+    </div>
+    
+    <div class="w3-third">
+      <img src="media/art/mts2.jpg" style="width:100%" onclick="onClick(this)" alt="Northern Cascades WA">
+      <img src="media/art/confuse.jpg" style="width:100%" onclick="onClick(this)" alt="Abstract Mountaintop Sunset">
+      <img src="media/art/dance.jpg" style="width:100%" onclick="onClick(this)" alt="Flamenco Dancer">
+      <img src="media/art/floatMT.jpg" style="width:100%" onclick="onClick(this)" alt="Floatng peaks">
+      <img src="media/art/lines.jpg" style="width:100%" onclick="onClick(this)" alt="Patterned lines">
+      <img src="media/art/mess.jpg" style="width:100%" onclick="onClick(this)" alt="Dark Confusion">
+     <img src="media/art/tan.jpg" style="width:100%" onclick="onClick(this)" alt="Looking into the Sun">
+
+
+    </div>
+  </div>
+  
+   <!-- Portfolio Photo grid -->
+  <div class="w3-row" id="phot">
+    <div class="w3-third">
+      <img src="media/photos/NC/dark.jpg" style="width:100%" onclick="onClick(this)" alt="Cascades view from a fire tower">
+      <img src="media/photos/cardigan/mock.jpg" style="width:100%" onclick="onClick(this)" alt="Mountaintop Hammock">
+      <img src="media/photos/books.jpg" style="width:100%" onclick="onClick(this)" alt="Hidden Bookstore">
+      <img src="media/photos/moose/moose.jpg" style="width:100%" onclick="onClick(this)" alt="Narnia Trees">
+      <img src="media/photos/gile.jpg" style="width:100%" onclick="onClick(this)" alt="Spooky star gazing">
+            <img src="media/photos/windjay.jpg" style="width:100%" onclick="onClick(this)" alt="Happy about adventures ">
+      <img src="media/photos/jumpin.jpg" style="width:100%" onclick="onClick(this)" alt="Jump and touch the clouds">
+
+      
+    </div>
+
+    <div class="w3-third">
+      <img src="media/photos/cardigan/grut.jpg" style="width:100%" onclick="onClick(this)" alt="Gretta and the first light of the day">
+      <img src="media/photos/NC/kite.jpg" style="width:100%" onclick="onClick(this)" alt="Perfect place for a kite">
+      <img src="media/photos/homested.jpg" style="width:100%" onclick="onClick(this)" alt="Homested">
+      <img src="media/photos/NC/wind.jpg" style="width:100%" onclick="onClick(this)" alt="A sea of smoky mountains">
+      <img src="media/photos/beach3.jpg" style="width:100%" onclick="onClick(this)" alt="Washington Coast">
+      <img src="media/photos/rainer.jpg" style="width:100%" onclick="onClick(this)" alt="View of Mt.Rainer">
+    <img src="media/art/PA.jpg" style="width:100%" onclick="onClick(this)" alt="Garmanhaus">
+         <img src="media/photos/boys.jpg" style="width:100%" onclick="onClick(this)" alt="Two guys and a sun">
+      <img src="media/photos/boyss.jpg" style="width:100%" onclick="onClick(this)" alt="Three guys, some windows, and a massive mountain">
+
+
+
+
+    </div>
+    
+    <div class="w3-third">
+      <img src="media/photos/ben.jpg" style="width:100%" onclick="onClick(this)" alt="Ben in the Golden Hour">
+      <img src="media/photos/moose/grut.jpg" style="width:100%" onclick="onClick(this)" alt="Winter adventure with Grut">
+      <img src="media/photos/NC/pano.jpg" style="width:100%" onclick="onClick(this)" alt="Hidden Lake Lookout Firetower">
+      <img src="media/photos/sun.jpg" style="width:100%" onclick="onClick(this)" alt="Cotten Candy Clouds">
+      <img src="media/photos/bridge.jpg" style="width:100%" onclick="onClick(this)" alt="Covered bridge somewhere in VT">
+        <img src="media/photos/jay.jpg" style="width:100%" onclick="onClick(this)" alt="Jay and Rainer">
+      <img src="media/photos/valley.jpg" style="width:100%" onclick="onClick(this)" alt="Enchanted Valley">
+
+
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+<!-- 
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#port" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#port" class="w3-bar-item w3-black w3-button">Make this work???</a>
+      <a href="#port" class="w3-bar-item w3-button w3-hover-black">Prints</a>
+      <a href="#port" class="w3-bar-item w3-button w3-hover-black">Drawing</a>
+      <a href="#port" class="w3-bar-item w3-button w3-hover-black">Painting</a>
+      <a href="#port" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+ -->
+
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
     <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
@@ -81,33 +174,40 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <!-- About section -->
   <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
     <h4><b>About Me</b></h4>
-    <img src="/w3images/avatar_hat.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
-    <div class="w3-content w3-justify" style="max-width:600px">
-      <h4>My Name</h4>
-      <p>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <img src="media/homepage/me.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+    <a href="project.html">
+    	<div class="w3-content w3-justify" style="max-width:600px">
+    </a>
+      <h4>Maria Garman</h4>
+      <p> My name is Maria Garman and I am a senior at Dartmouth College. I will graduate in June 2019 with a Major in Engineering Modified with Studio Art and 
+      a minor in Human Centered Design. Growing up in Scituate MA, a lovely costal town just south of Boston, an appreciation for the beauty of nature and the colors
+      it creates is engrained in me. My artwork is inspired by the color relationships, patterns, and textures nature creates in these beautiful moments.
       </p>
-      <p>mail: example@example.com</p>
-      <p>tel: 5353 35531</p>
+      <p>mail: maria.t.garman.19@dartmouth.edu</p>
+      <p>tel: 781-264-1240</p>
       <hr class="w3-opacity">
       <h4 class="w3-padding-16">Technical Skills</h4>
-      <p class="w3-wide">Photography</p>
+      <p class="w3-wide">Printmaking</p>
       <div class="w3-white">
         <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
       </div>
-      <p class="w3-wide">Web Design</p>
+       <p class="w3-wide">3D modeling</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
+      </div>
+      <p class="w3-wide">Photography</p>
       <div class="w3-white">
         <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
       </div>
       <p class="w3-wide">Photoshop</p>
       <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">85%</div>
       </div>
-      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom">Download Resume</button></p>
+      <!-- <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom">how to! Download Resume</button></p> -->
       <hr class="w3-opacity">
+<!-- 
 
-      <h4 class="w3-padding-16">How much I charge</h4>
+ <!~~     <h4 class="w3-padding-16">How much I charge</h4>
       <div class="w3-row-padding" style="margin:0 -16px">
         <div class="w3-half w3-margin-bottom">
           <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
@@ -145,8 +245,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </div>
+~~>
 
-  <!-- Contact section -->
+ <!~~ 
+  <!~~ Contact section ~~>
   <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>Contact Me</b></h4>
@@ -169,7 +271,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </div>
   </div>
 
-  <!-- Footer -->
+  <!~~ Footer ~~>
   <footer class="w3-container w3-padding-32 w3-grey">  
     <div class="w3-row-padding">
       <div class="w3-third">
@@ -205,7 +307,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </footer>
-  
+  ~~>
+ -->
   <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
 
 <!-- End page content -->
